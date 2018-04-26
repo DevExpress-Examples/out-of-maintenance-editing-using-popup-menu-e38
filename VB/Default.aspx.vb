@@ -15,7 +15,7 @@ Partial Public Class Grid_Editing_CustomUpdate_CustomUpdate
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
         'Populate grid with data on the first load
-        If (Not IsPostBack) AndAlso (Not IsCallback) Then
+        If Not IsPostBack AndAlso Not IsCallback Then
             Dim provider As New InvoiceItemsProvider()
             provider.Populate()
         End If
