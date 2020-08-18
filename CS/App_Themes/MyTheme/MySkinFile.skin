@@ -1,4 +1,4 @@
-﻿<%@ Register TagPrefix="dxgv" Namespace="DevExpress.Web.ASPxGridView" Assembly="DevExpress.Web.v13.1, Version=13.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %> 
+﻿<%@ Register TagPrefix="dxgv" Namespace="DevExpress.Web.ASPxGridView" Assembly="DevExpress.Web.v14.1, Version=14.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %> 
 
 <dxgv:ASPxGridView runat="server" SkinId="GlassSkin" CssFilePath="~/App_Themes/MyTheme/Glass/{0}/styles.css" CssPostfix="Glass" >
     <Images ImageFolder="~/App_Themes/MyTheme/Glass/{0}" ></Images>
